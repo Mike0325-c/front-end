@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeuralAI Synergy Surve</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="start_page_styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        
+       
+      
+  </style>
+  </head>
+  <body>
+    
+    
+    <nav>
+      <div class="nav-center" >
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="https://t3.ftcdn.net/jpg/04/36/42/56/360_F_436425643_R9xNjaEx8cy7VJ9huc0NqOZ4emApTAgl.jpg" class="logo" alt="logo" />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        
+        <ul class="links">
+          <li >
+            <a class="links-font" href="index.html">home</a>
+          </li>
+          <li class="links-font">
+            <a href="about.html">about</a>
+          </li>
+          <li class="links-font">
+            <a  class="links-contact">contact</a>
+          </li>
+        </ul>
+
+
+        <!-- social media -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.twitter.com" >
+              <i class="fab fa-facebook"  style="font-size: 30px;"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter" style="font-size: 30px;"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-behance" style="font-size: 30px;"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-linkedin" style="font-size: 30px;"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-sketch" style="font-size: 30px;"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+   
+  
+  
+   
+         
+         
+          
+    <!-- preloader -->
+    <div class="preloader">
+      <img src="preloader.gif" alt="preloader" class="preloader__item" />
+    </div>
+    <!-- header -->
+    <header>
+      <video controls muted autoplay loop class="video-container">
+        <source src="robot_video.mp4" type="video/mp4" />
+      </video>
+    
+      <h1 class="h1-title">NeuralAI Synergy Survey</h1>
+
+      <p class="p1">Explore Amazing AI System</p>
+      <p class="p2">Characters , News , Photograph , Audio  and  Report</p>
+  
+      <button class='glowing-btn'><span class='glowing-txt'>E<span class='faulty-letter'>N</span>TER</span></button>
+
+      <p class="p3"> ENTER EXPLORATION</p>
+         
+      <div id="wrap">
+        <div class="HH">
+            <p><span class="first">0</span><span class="second">0</span></p>
+            <p><span class="first">0</span><span class="second">0</span></p>
+        </div>
+        <div class="a">:</div>
+        <div class="MM">
+            <p><span class="first">0</span><span class="second">0</span></p>
+            <p><span class="first">0</span><span class="second">0</span></p>
+        </div>
+        <div class="a">:</div>
+        <div class="SS">
+            <p><span class="first">0</span><span class="second">0</span></p>
+            <p><span class="first">0</span><span class="second">0</span></p>
+        </div>
+      </div>
+      <!-- video switch -->
+      <button class="switch-btn">
+        <span>
+          play
+        </span>
+        <span>
+          pause
+        </span>
+        <span class="switch"></span>
+      </button>
+
+
+      <audio id="myAudio" autoplay muted>
+        <source src="Oppenheimer.mp3" type="audio/mpeg">
+      </audio>
+      
+      <div id="controls-video">
+        <button class="icon-button"  onclick="toggleMute()">
+          <i id="volumeIcon" class="fas fa-volume-mute"></i>
+        </button>
+        <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="0.5" onchange="setVolume(this.value)">
+      </div>
+    
+    </header>
+    <!-- javascript -->
+  
+    <script src="app.js"></script>
+    <script src="./poput.js"></script>
+  </body>
+</html>
